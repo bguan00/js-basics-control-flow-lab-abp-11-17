@@ -8,11 +8,10 @@ function scuberGreetingForFeet(x){
 
 function ternaryCheckCity(x) { return x!='NYC'? 'No go.':"Ok, sounds good."}
 
-function switchOnCharmFromTip(x) {case x>5: return 'Thank you so much.';
+function switchOnCharmFromTip(x) {switch (x) {
+    case x>5: return 'Thank you so much.';
     break;
     case x<4&& x>3: return'Thank you.'
     break;
-    case x<3: return 'bye'
-    
-  x}
+    case x<3: return 'bye'}
 }
